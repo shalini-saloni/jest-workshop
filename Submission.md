@@ -45,3 +45,4 @@ Prevents failures due to coupon code casing differences such as save10, SAVE10, 
 ## Reflection (1–2 lines)
 What is **one thing** you understood better about testing or CI after this workshop?
 
+One thing I understood better after this workshop is how automated tests and CI work together.
