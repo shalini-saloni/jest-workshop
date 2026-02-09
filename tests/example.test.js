@@ -6,12 +6,12 @@ test("Invalid subtotal should throw error", () => {
   expect(() => calculateFinalAmount(-100, "SAVE10")).toThrow("Invalid subtotal");
 });
 
-test("No coupon should return subtotal or apply default discount if applicable", () => {
+test("No coupon applies correct default pricing", () => {
   expect(calculateFinalAmount(500)).toBe(500);
   expect(calculateFinalAmount(1500)).toBe(1425); 
 });
 
-test("SAVE10 coupon should give 10% discount up to $100", () => {
+test("SAVE10 coupon should give 10% discount", () => {
   expect(calculateFinalAmount(500, "SAVE10")).toBe(450);   
   expect(calculateFinalAmount(1500, "SAVE10")).toBe(1325); 
 });
