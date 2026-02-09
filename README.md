@@ -12,7 +12,7 @@
 - SAVE10 coupon
 - FLAT50 boundary case
 - invalid subtotal throws error
-- case-insensitive coupon
+- case-insensitive coupon 
 - Add GitHub Actions CI to run `npm test` on push and PR
 
 ## Run locally
